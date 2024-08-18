@@ -40,7 +40,7 @@ const Navbar = ({ selectedPage, setSelectedPage }) => {
                         <Link page="Contact" selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
                     </div>
                 ) : (
-                    <button className="w-20 h-20 rounded-full bg-gray-800 p-2" onClick={handleMenuToggle}>
+                    <button className="w-12 h-12 rounded-full bg-gray-800 p-2" onClick={handleMenuToggle}>
                         <img src={menuIcon} alt="menu-icon" />
                     </button>
                 )}
@@ -51,7 +51,7 @@ const Navbar = ({ selectedPage, setSelectedPage }) => {
                         {/* CLOSE ICON */}
                         <div className="flex justify-end p-4">
                             <button onClick={handleMenuToggle}>
-                                <img src={CloseIcon} alt="Close-icon" className="w-6 h-6" />
+                                <img src={CloseIcon} alt="Close-icon" className="w-10 h-10" />
                             </button>
                         </div>
 
